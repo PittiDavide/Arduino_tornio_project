@@ -1,4 +1,4 @@
-# Arduino_tornio_project
+## Arduino_tornio_project
 L'idea di questo progetto è nata in seguito ad una richiesta scolastica.
 Infatti dopo averci presentato Arduino, il profe ci ha richiesto di sviluppare un progetto a scelta, che comunicasse con Python, tramite porta seriale.
 A quel punto io ed il mio gruppo abbiamo avuto l'idea di creare un tornio che eseguisse una sequenza di comandi in, o meglio spostamenti della testina in automatico.
