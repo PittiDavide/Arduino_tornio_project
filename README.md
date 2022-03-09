@@ -14,3 +14,35 @@ infine abbiamo sfruttato un semplice motore rc, questo motore ci è servito come
 seguenza possa essere inciso dalla testina.
 infine abbiamo aggiunto un semplice diodo led di colore rosso, che si accenda quando il macchinario sta funzionando, principalmente come misura di sicurezza nei confronti
 di un eventuale operaio che lo debba aprire per estrarre il pezzo.
+
+
+#FASI DEL PROGETTO
+il progetto si è diviso in: 
+
+IDEA
+
+    Pensare alla fattibilità del progetto
+    
+    Possibili sbocchi commerciali
+    
+    Funzionalità necessarie
+    
+SVILUPPO
+
+    Scelta dei corretti componenti
+    
+    Scelta linguaggio e bot
+    
+    Montaggio arduino
+    
+    Sviluppo codice
+    
+        Arduino
+        
+        Bot telegram
+        
+CONCLUSIONI
+
+    Aggiunta nuove feature
+    
+    Test di funzionamento
