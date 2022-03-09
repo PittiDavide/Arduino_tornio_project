@@ -47,3 +47,15 @@ CONCLUSIONI
     Aggiunta nuove feature
     
     Test di funzionamento
+    
+    
+CODICE PYTHON:
+    Fase di listening
+            il bot si mette in attesa di ricevere un messaggio, e di conseguenza di far partire l'Arduino
+
+    Fase di start
+            il bot riceve il messaggio "/begin", e manda un messaggio ad Arduino che fa partire il codice
+
+    Fase di stop
+            il bot riceve il messaggio "/stop", e manda un messaggio ad Arduino che fa interrompe il codice.                                                                                 il messaggio serve in caso di un stop d'emergenza
+
