@@ -1,11 +1,25 @@
-## Arduino_tornio_project
-L'idea di questo progetto è nata in seguito ad una richiesta scolastica.
-Infatti dopo averci presentato Arduino, il profe ci ha richiesto di sviluppare un progetto a scelta, che comunicasse con Python, tramite porta seriale.
-A quel punto io ed il mio gruppo abbiamo avuto l'idea di creare un tornio che eseguisse una sequenza di comandi in, o meglio spostamenti della testina in automatico.
-Tuttavia come comunicazione con Python abbiamo deciso di creare un bot, sulla piattaforma di messaggistica Telegram.
-Questo bot doveva consentirci di avviare il tornio da remoto, e di fermarlo per una qualsiasi emergenza.
-Così è stato, infatti dopo averlo sviluppato siamo riusciti a collegarlo a Python, e tramite il passaggio di un carattere sulla porta seriale siamo riusciamo a far par-
-tire il nostro algoritmo, o a fermarlo in caso di necessità.
+# Arduino_tornio_project
+In seguito a una serie di lezioni in classe con l'obbiettivo di presentarci l'hardware Arduino, il profe ci ha richiesto di sviluppare un progetto a scelta, che comunicasse con Python, tramite porta seriale.
+
+## idea e pianificazione
+A quel punto abbiamo avuto l'idea di ricreare un tornio che eseguisse tramite dei nostri input una sequenza di spostamenti della testina in automatico.
+Per dare questi input abbiamo deciso di sfruttare un bot telegram il quale avrebbe dobuto far partire e stoppare tutto l'algoritmo tramite appositi coimandi da remoto.
+
+## ragionamenti tecnici e materiali
+Abbiamo iniziato a pensare con quali materiali lavorare e la nostra scelta infine è ricaduta su 3 motori diversi:
+
+- motore RC              (il motore principale del tornio)
+- motore passo-passo     (motore che permetteva lo spostamento della testina)
+- servo motore           (testina)
+        
+I 3 motori avrebbero dovuto funzionare in 3 modi e tempi diversi e sarebbero dovuti essere in grado di lavorare coordinati con la seguente logica:
+
+il motore passo passo, ovvero un motore controllabile in qualsiasi suo movimento, tramite la quantità di 
+passi che esso deve fare, e tramite il suo motimento spostiamo il servo motore,con montata la testina in parallelo al pezzo da incidere.
+
+## sviluppo
+L'ultimo passo prima della reale scrittura del codice era la composizione, era il momento di montare su breadbord le nostre idee e i nostri motori decidendo anche di aggiungerci un led, il quale ci avrebbe dovuto segnalare  lo stato del tornio (acceso/spento)  
+
 il progetto in se, a livello fisico si compone di tre motori: il motore passo passo, ovvero un motore controllabile in qualsiasi suo movimento, tramite la quantità di 
 passi che esso deve fare, e tramite il suo motimento spostiamo il servo motore,con montata la testina in parallelo al pezzo da incidere.
 successivamente abbiamo sfruttato un servo motore, ovvero un motore che muove il l'albero di un certo tot di gradi.
