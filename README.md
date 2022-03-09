@@ -50,6 +50,7 @@ CONCLUSIONI
     
     
 CODICE PYTHON:
+
     Fase di listening
             il bot si mette in attesa di ricevere un messaggio, e di conseguenza di far partire l'Arduino
 
@@ -59,3 +60,15 @@ CODICE PYTHON:
     Fase di stop
             il bot riceve il messaggio "/stop", e manda un messaggio ad Arduino che fa interrompe il codice.                                                                                 il messaggio serve in caso di un stop d'emergenza
 
+PARTE FISICA CON ARDUINO:
+        
+        Motore Passo-Passo
+        Funziona tramite degli step, che gli consentono di andare avanti, indietro, e a velocità diverse.
+        E' molto versatile e noi lo usiamo per muovere la il servo motore avanti e indietro   
+
+        Servo motore
+        Funziona tramite una rotazione di x gradi, 0 <= x <= 180.
+        E noi lo abbiamo sfruttato per muovere la testina avanti e indietro
+
+        Motore RC
+        Funziona solo se alimentato, quindi senza programmazione , in base alla polarizzazione, e a velocità fissa.                                                                       Lo abbiamo sfruttato come motore principale, ovvero che muove il pezzo da incidere
