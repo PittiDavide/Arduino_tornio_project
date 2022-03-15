@@ -15,10 +15,7 @@ seguenza possa essere inciso dalla testina.
 infine abbiamo aggiunto un semplice diodo led di colore rosso, che si accenda quando il macchinario sta funzionando, principalmente come misura di sicurezza nei confronti
 di un eventuale operaio che lo debba aprire per estrarre il pezzo.
 
-
-## FASI DEL PROGETTO
-
-il progetto si è diviso in: 
+## IL PROGETTO SI E' DIVISO IN: 
 
 ## IDEA
 
@@ -59,7 +56,6 @@ il progetto si è diviso in:
 
     Fase di stop
             il bot riceve il messaggio "/stop", e manda un messaggio ad Arduino che fa interrompe il codice. 
-            
             il messaggio serve in caso di un stop d'emergenza
 
 ## PARTE FISICA CON ARDUINO:
