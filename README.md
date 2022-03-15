@@ -16,7 +16,7 @@ infine abbiamo aggiunto un semplice diodo led di colore rosso, che si accenda qu
 di un eventuale operaio che lo debba aprire per estrarre il pezzo.
 
 
-FASI DEL PROGETTO
+## FASI DEL PROGETTO
 
 il progetto si è diviso in: 
 
