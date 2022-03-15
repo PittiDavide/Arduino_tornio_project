@@ -41,8 +41,6 @@ di un eventuale operaio che lo debba aprire per estrarre il pezzo.
         
 ## CONCLUSIONI
 
-    Aggiunta nuove feature
-    
     Test di funzionamento
     
     
@@ -69,4 +67,5 @@ di un eventuale operaio che lo debba aprire per estrarre il pezzo.
         E noi lo abbiamo sfruttato per muovere la testina avanti e indietro
 
     Motore RC:
-        Funziona solo se alimentato, quindi senza programmazione , in base alla polarizzazione, e a velocità fissa.                                                                       Lo abbiamo sfruttato come motore principale, ovvero che muove il pezzo da incidere
+        Funziona solo se alimentato, quindi senza programmazione , in base alla polarizzazione, e a velocità fissa.
+        Lo abbiamo sfruttato come motore principale, ovvero che muove il pezzo da incidere
