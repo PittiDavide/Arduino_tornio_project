@@ -20,7 +20,7 @@ di un eventuale operaio che lo debba aprire per estrarre il pezzo.
 
 il progetto si è diviso in: 
 
-IDEA
+## IDEA
 
     Pensare alla fattibilità del progetto
     
@@ -28,7 +28,7 @@ IDEA
     
     Funzionalità necessarie
     
-SVILUPPO
+## SVILUPPO
 
     Scelta dei corretti componenti
     
@@ -42,14 +42,14 @@ SVILUPPO
         
         Bot telegram
         
-CONCLUSIONI
+## CONCLUSIONI
 
     Aggiunta nuove feature
     
     Test di funzionamento
     
     
-CODICE PYTHON:
+## CODICE PYTHON:
 
     Fase di listening
             il bot si mette in attesa di ricevere un messaggio, e di conseguenza di far partire l'Arduino
@@ -58,9 +58,11 @@ CODICE PYTHON:
             il bot riceve il messaggio "/begin", e manda un messaggio ad Arduino che fa partire il codice
 
     Fase di stop
-            il bot riceve il messaggio "/stop", e manda un messaggio ad Arduino che fa interrompe il codice.                                                                                 il messaggio serve in caso di un stop d'emergenza
+            il bot riceve il messaggio "/stop", e manda un messaggio ad Arduino che fa interrompe il codice. 
+            
+            il messaggio serve in caso di un stop d'emergenza
 
-PARTE FISICA CON ARDUINO:
+## PARTE FISICA CON ARDUINO:
         
     Motore Passo-Passo:
         Funziona tramite degli step, che gli consentono di andare avanti, indietro, e a velocità diverse.
